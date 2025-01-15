@@ -18,12 +18,14 @@ const handler = (e) =>{
         val = "O";
         checkArrayO.push(+e.target.getAttribute("id"));
         turnO=false;
+        e.target.style.color = ("blue");
         e.target.disabled = true;
     }
     else{
         val = "X";
         checkArrayX.push(+e.target.getAttribute("id"));
         turnO=true;
+        e.target.style.color = ("red");
         e.target.disabled = true;
     }
     e.target.innerText = val
