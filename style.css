@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C5868A;
+}
+#heading{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.outer-box{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+    border-radius: 1rem;
+    font-size: 50px;
+    background-color: #EDFBC1;
+    color: black;
+}
+#reset{
+    align-items: center;
+    height: 5vmin;
+    width: 10vmin;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.winner{
+    text-align: center;
+    color: blue;
+    font-family: cursive;
+}
